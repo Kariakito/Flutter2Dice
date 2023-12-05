@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:dice_app/style_text.dart';
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
@@ -15,14 +16,9 @@ class GradientContainer extends StatelessWidget {
             ),
           ),
           child: const Center(
-            child: Text(
-              'Hola Flutter es Pilar!!!',
-              style: TextStyle(
-                color: Colors.white24,
-                fontSize: 28,
-              ),
-            ),
+            child: StyleText(),
           ),
         ); 
    }
 }
+
