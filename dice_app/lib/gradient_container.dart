@@ -20,8 +20,11 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: const Center(
-        child: StyleText('Hola Flutter es Pilar desde gradiente ahora!!!'),
+      child: Center(
+        child: Image.asset(
+          'assets/images/dice-images/dice-2.png',
+          width: 300,
+        ),
       ),
     );
   }
